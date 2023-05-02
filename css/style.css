@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #dbdbdb;
+}
+
+.big_card{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 420px;
+    height: 420px;
+    background-color: #000;
+    outline: 2px solid #000;
+}
+
+.card_top,
+.card_middle,
+.card_bottom{
+    height: 140px;
+    display: flex;
+}
+
+.card_top,
+.card_bottom{
+    justify-content: space-between;
+}
+
+.card_middle{
+    justify-content: center;
+}
+
+.small-card{
+    width: 140px;
+    height: 140px;
+}
+
+.card-white{
+    background-color: #fff;
+}
